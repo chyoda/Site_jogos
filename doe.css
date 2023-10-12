@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Prótotipo.png);
+}
+
+header{
+    margin-top: 0;
+    background-color: #771413;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar{    
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 0 0 0;
+}
+
+.aba{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aba a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+}
+
+#section{
+    margin-top: 5vh;
+    display: flex;
+}
+#conta{
+    color: #771413;
+}
+
+#corpo{
+    margin-top: 2vh;
+}
+
+#logo{
+    margin-top: vh;
+    margin-left: 6vw;
+    position: absolute;
+}
+
+#logo img{
+    width: 8vw;
+}

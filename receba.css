@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Prótotipo.png);
+}
+
+header{
+    margin-top: 0;
+    background-color: #771413;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar{    
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 0 0 0;
+}
+
+.aba{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aba a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+}
+
+#section{
+    margin-top: 5vh;
+    display: flex;
+}
+
+#corpo{
+    margin-top: 2vh;
+}
+
+#logo{
+    margin-left: 6vw;
+    position: absolute;
+}
+
+#logo img{
+    width: 8vw;
+}
+
+#cad{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cad h1{
+    text-align: center;
+    color: #771413;
+    font-size: 20pt;
+}
+
+#form{
+    width: 80vw;
+    height: 20vh;
+    margin-top: 10vh;
+}
+
+#_{
+    width: 100%;
+}
+
+#area-cad{
+    padding: 0 5% 0 5%;
+    display: flex;
+}
+
+#area-cad input{
+    padding: 0 0 0 20px;
+    width: 30vw;
+    height: 6vh;
+}
+
+input::placeholder{
+    color: #771413;
+    font-size: 11.5pt;
+}
+
+#area-cad select{
+    padding: 0 0 0 20px;
+    width: 31.5vw;
+    height: 6vh;
+}
+#campo_comprov{
+    border: solid 1px rgb(112, 112, 112);
+    display: flex;
+    padding: 0 0 0 0;
+    width: 31.5vw;
+    height: 6vh;
+}
+
+#comprov[type='file']{ 
+    display: block;
+    color: transparent;
+}
+
+#button{
+    margin-left: 5%;
+    background-color: #771413;
+    color: white;
+    font-weight: bold;
+    width: 31.5vw;
+    height: 6vh;
+    border: none;
+}
+
+#renda{
+    color: #771413;
+}
+
+fieldset{
+    padding: 2vh 2vw 2vh 2vw;
+    width: 68vw;
+    margin-left: 4vw;
+    
+}
+
+#label{
+    display: flex;
+    padding: 1.5vh 20px 0 20px;
+
+}
+#label legend{
+    width: 26vw;
+    color: #771413;
+}
+
+#label img {
+    margin-top: -1vh;
+    width: 3vw;
+    height: 4.5vh;
+}
+
+textarea{
+    max-width: 66.5vw;
+    max-height: 25vh;
+    padding: 20px 0 0 20px;
+}
+
+#file{
+    display: none;
+}
